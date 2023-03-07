@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.image-product {
+  width: 100%;
+}
+.info-product > table {
+  width: 100% !important;
+}
+.info-product > p > a > img {
+  width: 100% !important;
+}
+.info-product > h3 > a > img {
+  width: 100% !important;
+}
+.ant-modal-close-icon {
+  background-image: none !important;
+  /* background-color: red !important; */
+}
+.ant-modal-close:hover {
+  background: none !important;
+}
